@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.3
-Release:	5
+Version:	1.1.0
+Release:	1
 Summary:	XML_SVG API
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/XML_SVG/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/XML_SVG-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -116,4 +116,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdk
 - initial Mandriva package (PLD import)
+
 
