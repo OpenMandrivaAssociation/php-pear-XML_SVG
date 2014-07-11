@@ -5,7 +5,7 @@
 Summary:	XML_SVG API
 Name:		php-pear-%{modname}
 Version:	1.1.0
-Release:	6
+Release:	7
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/XML_SVG/
