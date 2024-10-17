@@ -8,7 +8,7 @@ Version:	1.1.0
 Release:	10
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/XML_SVG/
+Url:		https://pear.php.net/package/XML_SVG/
 Source0:	http://download.pear.php.net/package/XML_SVG-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
